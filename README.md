@@ -43,8 +43,7 @@
 - Win by revealing all letters before running out of attempts
 
 ## 📸 Screenshots
-
----------------
+![image](https://github.com/user-attachments/assets/052fbe2b-14a7-4b3f-a5fe-ef7a5d808e72)
 
 ## 🛠️ Tech Stack
 
