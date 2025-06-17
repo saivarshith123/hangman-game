@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>✨ Hangman Deluxe</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="glass-card">
+    <h1>🔮 Hangman Game</h1>
+    <div class="word" id="wordDisplay">_ _ _ _ _</div>
+
+    <div class="input-group">
+      <input type="text" id="letterInput" maxlength="1" placeholder="Enter a letter"/>
+      <button onclick="guessLetter()">Guess</button>
+    </div>
+
+    <div class="info">❤️ Attempts Left: <span id="attemptsLeft">6</span></div>
+    <div class="info">🧠 Guessed Letters: <span id="guessedLetters">None</span></div>
+
+    <div class="result" id="resultMessage"></div>
+    <button class="restart" onclick="resetGame()">🔁 Play Again</button>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
